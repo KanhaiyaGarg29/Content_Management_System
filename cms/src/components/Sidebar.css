@@ -1,0 +1,55 @@
+.sidebar-container {
+  margin-top: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(2, 0, 36);
+  color: #fff;
+  width: 200px;
+  padding: 20px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.btn-container .btns {
+  background-color: rgba(0, 0, 0, 0);
+  font-family: poppins;
+  text-align: left;
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  transition: transform 1s ease-in-out;
+  position: relative;
+}
+
+.btn-container .btns:hover {
+  background-color: #0f63bd;
+  animation: glow 1s ease ; 
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px #01e6fb; /* Initial glow effect */
+  }
+  50% {
+    box-shadow: 0 0 5px #01e6fb, 0 0 10px #01e6fb, 0 0 15px #01e6fb; /* Increase glow effect */
+  }
+  100% {
+    box-shadow: 0 0 5px #01e6fb; /* Return to initial glow */
+  }
+}
+
+.content-container {
+  margin-left: 160px;
+}
+
+.btns.active {
+  background-color: rgba(0, 80, 186, 0.718); 
+  color: #ffffff;
+}

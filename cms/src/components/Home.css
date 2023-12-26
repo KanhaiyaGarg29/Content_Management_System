@@ -1,0 +1,469 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin:0;
+    ::-webkit-scrollbar {
+    display: none;
+    }
+    font-family: 'poppins','sans-serif';
+}
+
+
+.firstdiv{
+    height: 800px;
+    display:flex;
+    
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    background: url(./images/nasa-Q1p7bh3SHj8-unsplash.jpg);
+    
+}
+
+.subdiv1{
+    width: 50%;
+    padding-top: 10rem;
+    padding-left: 2rem;
+}
+
+.subdiv2{
+    background-image: url(./images/pocketmerocket.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+
+.firsttext{
+    font-weight: 500;
+    color: whitesmoke;
+    font-size: 5.3rem;
+    font-family: 'Poppins', sans-serif;
+    line-height:7rem;
+}
+
+.firstsectext{
+    color: whitesmoke;
+    font-family: 'poppins',sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+
+.btn1 {
+    margin-top:2rem;
+    font-size: 0.8rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 1.2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(14, 14, 26);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 5px whitesmoke;
+  }
+  
+  .btn1:active {
+    scale: 0.92;
+  }
+  
+  .btn1:hover {
+    background: rgb(2,29,78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+  }
+
+  .btn2 {
+    margin-top:2rem;
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 1.2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(14, 14, 26);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 5px whitesmoke;
+  }
+  
+  .btn2:active {
+    scale: 0.92;
+  }
+  
+  .btn2:hover {
+    background: rgb(2,29,78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+  }
+
+.subdiv2{
+    width: 50%;
+}
+
+.secondtext{
+    color:white;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
+
+
+.seconddiv{
+    height: 40rem;
+    background-image: url(./images/pexels-josé-luis-photographer-3577348.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.secdiv1{
+    padding-top:3rem;
+    height: 100px;
+    text-align: center;
+    height: 10rem;
+    
+}
+
+.html{
+    font-family: 'poppins','sans-serif';
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+
+.secdiv2{
+    height:6rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.html2{
+    font-family: 'poppins','sans-serif';
+    color: white;
+}
+
+.link1{
+    color:rgb(1,187,238);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.secdiv3{
+    height: 24rem;
+    margin-top:1rem;
+    
+}
+
+.secdiv3 p{
+    color:white;
+    text-align: center;
+    padding-top: 4rem;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.html3{
+    font-size: 10rem;
+    font-style: italic;
+    font-weight: 800;
+    
+}
+.html3:hover{
+    transform: scale(1.1);
+    
+}
+
+
+/* ///////////////////////////////////////////////////////////////// */
+
+.thirddiv{
+    height: 46rem;
+    background-color:whitesmoke;
+}
+
+.thirddiv1{
+    background-color: whitesmoke;
+    text-align: center;
+    height: 10rem;
+    padding-top: 4rem;
+    
+}
+.css{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.thirddiv2{
+    text-align: center;
+
+}
+.css2{
+    font-size: 2.2rem;
+}
+
+.css3{
+    font-size:1.5rem;
+    margin-top: 0.5rem;
+}
+
+.thirddiv3{
+    height: 30rem;
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 1rem;
+    background-image: url(./images/mountain-png-21331.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.link2{
+    margin-top: 1rem;
+}
+
+/* ///////////////////////////////////////////////////////////////////// */
+
+.fourthdiv{
+    height: 55rem;
+    background-image: url(./images/javascriptback2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.fourthdiv1{
+    height:9rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+.javascript{
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+}
+.fourthdiv2{
+    height: 7rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+.js2{
+    font-size:2rem;
+    font-weight: 400;
+    color: white;
+}
+
+.js3{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: white;
+}
+.fourthdiv3{
+    text-align: center;
+    padding-top: 1rem;
+}
+.fourthdiv4{
+    height: 20rem;
+    background-image: url(./images/javascript-39404.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 240px;
+}
+
+/* ////////////////////////////////////////////////////////////////////// */
+
+.fifthdiv{
+    height: 44rem;
+    padding-top: 3rem;
+    background-image: url(./images/reactback.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fifthdiv1{
+    text-align: center;
+    height: 8rem;
+}
+.react{
+    font-size: 5rem;
+    font-weight: 700;
+}
+.fifthdiv2{
+    height: 6rem;
+    text-align: center;
+}
+.react2{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.react3{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.fifthdiv3{
+    height: 5rem;
+    text-align: center;
+}
+.fifthdiv4{
+    height: 25rem;
+}
+
+.fifthdiv4{
+    height: 20rem;
+    
+}
+
+.container1{
+    width:250px;
+    height:250px;
+    margin:20px auto 0 auto;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .react-logo{
+    display: inline-block;
+    border-radius:50%;
+    border:10px solid #00d8ff;
+
+    animation-name:rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+
+  }
+
+  .react-logo , .react-logo:before , .react-logo:after{
+    position:absolute;
+    display: inline-block;
+    width:200px;
+    height:70px;
+    border-radius:50%;
+    border:10px solid #00d8ff;
+  }
+
+  .nucleo , .react-logo , .react-logo:before , .react-logo:after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nucleo{
+    width:40px;
+    height:40px;
+    border-radius:100%;
+    background:#00d8ff;
+  }
+
+  .react-logo:before , .react-logo:after{
+    content:"";
+  }
+
+  .react-logo:after{
+    transform:rotate(-57deg);
+  }
+
+  .react-logo:before{
+    transform:rotate(57deg);
+  }
+  
+.title{
+  font-size:60px;
+  background:#222;
+  color:#00d8ff;
+  width:250px;
+  margin:2px auto;
+  text-align:center;
+}
+
+  @keyframes rotate{
+
+    100%{
+      transform:rotate(360deg);
+    }
+  }
+
+
+/* /////////////////////////////////footer////////////////////////////////////////////////   */
+
+footer{
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}

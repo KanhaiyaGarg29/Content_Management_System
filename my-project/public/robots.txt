@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+=======
+# To prevent search engines from seeing the site altogether, uncomment the next two lines:
+# User-Agent: *
+# Disallow: /
+>>>>>>> d1c5009 (second-commit)

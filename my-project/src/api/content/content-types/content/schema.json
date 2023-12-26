@@ -1,0 +1,94 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contents",
+  "info": {
+    "singularName": "content",
+    "pluralName": "contents",
+    "displayName": "Content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HtmlForms": {
+      "type": "json"
+    },
+    "HtmlFormsElements": {
+      "type": "json"
+    },
+    "HtmlInputTypes": {
+      "type": "json"
+    },
+    "HtmlIntro": {
+      "type": "json"
+    },
+    "HtmlBasics": {
+      "type": "json"
+    },
+    "HtmlTextFormatting": {
+      "type": "json"
+    },
+    "HtmlBlockAndInline": {
+      "type": "json"
+    },
+    "HtmlLists": {
+      "type": "json"
+    },
+    "HtmlTables": {
+      "type": "json"
+    },
+    "HtmlVsXhtml": {
+      "type": "json"
+    },
+    "CssIntro": {
+      "type": "json"
+    },
+    "CssSelectors": {
+      "type": "json"
+    },
+    "CssBackgrounds": {
+      "type": "json"
+    },
+    "CssPadding": {
+      "type": "json"
+    },
+    "CssMargins": {
+      "type": "json"
+    },
+    "CssDisplay": {
+      "type": "json"
+    },
+    "CssBorders": {
+      "type": "json"
+    },
+    "CssPosition": {
+      "type": "json"
+    },
+    "CssZindex": {
+      "type": "json"
+    },
+    "CssOverflow": {
+      "type": "json"
+    },
+    "CssShadows": {
+      "type": "json"
+    },
+    "CssPseudoClasses": {
+      "type": "json"
+    },
+    "CssTransitions": {
+      "type": "json"
+    },
+    "CssTranforms": {
+      "type": "json"
+    },
+    "CssAnimations": {
+      "type": "json"
+    },
+    "CssFlexbox": {
+      "type": "json"
+    }
+  }
+}
